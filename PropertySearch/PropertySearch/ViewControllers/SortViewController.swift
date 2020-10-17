@@ -28,10 +28,12 @@ class SortViewController: UIViewController {
         
         title = "Sort"
         configureTableview()
-        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Done",
-                                                            style: .plain,
-                                                            target: self,
-                                                            action: #selector(actionDone))
+        let doneButton = UIBarButtonItem(title: "Done",
+                                         style: .plain,
+                                         target: self,
+                                         action: #selector(actionDone))
+        doneButton.accessibilityIdentifier = "acid_sort_done"
+        navigationItem.rightBarButtonItem = doneButton
     }
 
     private func configureTableview() {

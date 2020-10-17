@@ -28,10 +28,12 @@ class PropertyListViewController: UIViewController {
         
         title = "Property Search"
         viewModel = PropertyListViewModel(tableView: tableView)
-        navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "arrow.up.arrow.down"),
+        let sortButton = UIBarButtonItem(image: UIImage(systemName: "arrow.up.arrow.down"),
                                                             style: .plain,
                                                             target: self,
                                                             action: #selector(actionSort))
+        sortButton.accessibilityIdentifier = "acid_propertyList_sort"
+        navigationItem.rightBarButtonItem = sortButton
         navigationController?.navigationBar.tintColor = .label
         configureTableview()
     }
