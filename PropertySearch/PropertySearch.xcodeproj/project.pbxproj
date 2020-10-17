@@ -12,7 +12,6 @@
 		20C79A042539AC440008B9F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20C79A022539AC440008B9F1 /* Main.storyboard */; };
 		20C79A062539AC460008B9F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20C79A052539AC460008B9F1 /* Assets.xcassets */; };
 		20C79A092539AC460008B9F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20C79A072539AC460008B9F1 /* LaunchScreen.storyboard */; };
-		20C79A142539AC460008B9F1 /* PropertySearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C79A132539AC460008B9F1 /* PropertySearchTests.swift */; };
 		20C79A1F2539AC460008B9F1 /* PropertySearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C79A1E2539AC460008B9F1 /* PropertySearchUITests.swift */; };
 		20C79A372539B18B0008B9F1 /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C79A362539B18B0008B9F1 /* ServiceManager.swift */; };
 		20C79A392539B1BC0008B9F1 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C79A382539B1BC0008B9F1 /* Constant.swift */; };
@@ -36,6 +35,11 @@
 		20C79A65253A18830008B9F1 /* SortTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20C79A63253A18830008B9F1 /* SortTableViewCell.xib */; };
 		20C79A67253A1D8E0008B9F1 /* SortOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C79A66253A1D8E0008B9F1 /* SortOption.swift */; };
 		20C79A69253A242C0008B9F1 /* UIStoryboard+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C79A68253A242C0008B9F1 /* UIStoryboard+Extension.swift */; };
+		EB7EF180253B15E000893567 /* ServiceManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7EF17F253B15E000893567 /* ServiceManagerTests.swift */; };
+		EB7EF188253B17D900893567 /* PropertyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7EF187253B17D900893567 /* PropertyTests.swift */; };
+		EB7EF194253B1B0F00893567 /* Properties.json in Resources */ = {isa = PBXBuildFile; fileRef = EB7EF18C253B18E400893567 /* Properties.json */; };
+		EB7EF199253B1C1B00893567 /* PropertyListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7EF198253B1C1B00893567 /* PropertyListViewControllerTests.swift */; };
+		EB7EF19E253B211100893567 /* SortViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7EF19D253B211100893567 /* SortViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,7 +68,6 @@
 		20C79A082539AC460008B9F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20C79A0A2539AC460008B9F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20C79A0F2539AC460008B9F1 /* PropertySearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PropertySearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		20C79A132539AC460008B9F1 /* PropertySearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertySearchTests.swift; sourceTree = "<group>"; };
 		20C79A152539AC460008B9F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20C79A1A2539AC460008B9F1 /* PropertySearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PropertySearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20C79A1E2539AC460008B9F1 /* PropertySearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertySearchUITests.swift; sourceTree = "<group>"; };
@@ -91,6 +94,11 @@
 		20C79A63253A18830008B9F1 /* SortTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SortTableViewCell.xib; sourceTree = "<group>"; };
 		20C79A66253A1D8E0008B9F1 /* SortOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortOption.swift; sourceTree = "<group>"; };
 		20C79A68253A242C0008B9F1 /* UIStoryboard+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Extension.swift"; sourceTree = "<group>"; };
+		EB7EF17F253B15E000893567 /* ServiceManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceManagerTests.swift; sourceTree = "<group>"; };
+		EB7EF187253B17D900893567 /* PropertyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyTests.swift; sourceTree = "<group>"; };
+		EB7EF18C253B18E400893567 /* Properties.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Properties.json; sourceTree = "<group>"; };
+		EB7EF198253B1C1B00893567 /* PropertyListViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyListViewControllerTests.swift; sourceTree = "<group>"; };
+		EB7EF19D253B211100893567 /* SortViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,7 +169,11 @@
 		20C79A122539AC460008B9F1 /* PropertySearchTests */ = {
 			isa = PBXGroup;
 			children = (
-				20C79A132539AC460008B9F1 /* PropertySearchTests.swift */,
+				EB7EF17F253B15E000893567 /* ServiceManagerTests.swift */,
+				EB7EF187253B17D900893567 /* PropertyTests.swift */,
+				EB7EF198253B1C1B00893567 /* PropertyListViewControllerTests.swift */,
+				EB7EF19D253B211100893567 /* SortViewControllerTests.swift */,
+				EB7EF18C253B18E400893567 /* Properties.json */,
 				20C79A152539AC460008B9F1 /* Info.plist */,
 			);
 			path = PropertySearchTests;
@@ -387,6 +399,7 @@
 				20C79A062539AC460008B9F1 /* Assets.xcassets in Resources */,
 				20C79A65253A18830008B9F1 /* SortTableViewCell.xib in Resources */,
 				20C79A4A2539CFFB0008B9F1 /* PropertyTableViewCell.xib in Resources */,
+				EB7EF194253B1B0F00893567 /* Properties.json in Resources */,
 				20C79A042539AC440008B9F1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -441,7 +454,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20C79A142539AC460008B9F1 /* PropertySearchTests.swift in Sources */,
+				EB7EF188253B17D900893567 /* PropertyTests.swift in Sources */,
+				EB7EF180253B15E000893567 /* ServiceManagerTests.swift in Sources */,
+				EB7EF19E253B211100893567 /* SortViewControllerTests.swift in Sources */,
+				EB7EF199253B1C1B00893567 /* PropertyListViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

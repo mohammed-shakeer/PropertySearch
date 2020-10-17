@@ -10,6 +10,7 @@ import UIKit
 
 enum APIPath: String {
     case search = "mobileapi/search"
+    case invalid = "invalid"
 
     var name: String {
         return rawValue
