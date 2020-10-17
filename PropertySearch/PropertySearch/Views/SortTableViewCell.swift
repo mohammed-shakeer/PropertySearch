@@ -23,7 +23,7 @@ class SortTableViewCell: UITableViewCell {
 
         DebugPrint(selected, option.title)
         labelTitle?.backgroundColor = selected ? selectedColor : .clear
-        labelTitle?.textColor = selected ? .white : selectedColor
+        labelTitle?.textColor = selected ? .systemBackground : selectedColor
         labelTitle?.text = option.title
     }
 }
