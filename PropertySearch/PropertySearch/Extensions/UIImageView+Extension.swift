@@ -10,7 +10,7 @@ import UIKit
 
 extension UIImageView {
     
-    // downloads image from the passed url and displays it in imageView
+    /// downloads image from the passed url and displays it in imageView
     public func imageFromURL(url: URL?) {
         
         guard let url = url else { return }

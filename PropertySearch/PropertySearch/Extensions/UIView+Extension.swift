@@ -10,11 +10,12 @@ import UIKit
 
 public extension UIView {
     
-    //To get the UINib
+    /// To get the UINib
     static var nib:UINib {
         return UINib(nibName: identifier, bundle: nil)
     }
 
+    /// gets all subviews recursively in a view
     func getAllSubviews() -> [UIView] {
         var allSubviews = [UIView]()
         for subview in subviews {
@@ -24,7 +25,7 @@ public extension UIView {
         return allSubviews
     }
 
-    // Removes all subviews in a view
+    /// Removes all subviews in a view
     func removeAllSubviews() {
         subviews.forEach({ $0.removeFromSuperview() })
     }

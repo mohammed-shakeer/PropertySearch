@@ -9,7 +9,7 @@
 import UIKit
 
 extension UIResponder {
-    //To get the identifer name same as View name
+    /// To get the identifer name same as View name
     public static var identifier: String {
         return String(describing: self)
     }

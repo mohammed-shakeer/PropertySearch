@@ -71,6 +71,7 @@ class PropertyListViewModel: NSObject {
         }
     }
 
+    /// performs sort action on selecting any of the sort option by the user
     func performSortAction(option: SortOption?) {
 
         sortOption = option
@@ -84,6 +85,7 @@ class PropertyListViewModel: NSObject {
         list()
     }
 
+    /// checks if the cell is loadingCell for the indexPath passed
     private func isLoadingCell(for indexPath: IndexPath) -> Bool {
         return indexPath.row >= currentCount
     }

@@ -10,25 +10,25 @@ import UIKit
 
 protocol Requestable {
     
-    // the base url
+    /// the base url
     var baseURL: URL { get }
     
-    // the full url with path details attached which will be used to hit service
+    /// the full url with path details attached which will be used to hit service
     var url: URL { get }
     
-    // path component
+    /// path component
     var path: APIPath? { get }
     
-    // query params
+    /// query params
     var params: [String: Any] { get }
     
-    // request method
+    /// request method
     func request(completion: ((Data?, Error?) -> Void)?)
 }
 
 extension Requestable {
     
-    // defaults to base url of service manager
+    /// defaults to base url of service manager
     var baseURL: URL {
         return ServiceManager.shared.baseURL
     }
@@ -39,7 +39,7 @@ extension Requestable {
         return qualifiedUrl
     }
     
-    // defaults to nil
+    /// defaults to nil
     var path: APIPath? {
         return nil
     }
