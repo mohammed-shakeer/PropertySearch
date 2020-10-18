@@ -50,15 +50,21 @@ xcodebuild -project "PropertySearch.xcodeproj" -scheme "PropertySearch" -sdk iph
 
 # User Interface - Light Mode
 
-Property Listing Screen             |  Property Sort Screen
-:-------------------------:|:-------------------------:
+ Loading Screen          | Property Listing Screen             |  Property Sort Screen
+:-------------------------:|:-------------------------:|:-------------------------:
+![](https://github.com/mohammed-shakeer/PropertySearch/blob/main/ReferenceImages/Skeleton.png)  | 
 ![](https://github.com/mohammed-shakeer/PropertySearch/blob/main/ReferenceImages/List.png)  |  ![](https://github.com/mohammed-shakeer/PropertySearch/blob/main/ReferenceImages/Sort.png)
 
 # User Interface - Dark Mode
 
-Property Listing Screen             |  Property Sort Screen
-:-------------------------:|:-------------------------:
+Loading Screen          | Property Listing Screen             |  Property Sort Screen
+:-------------------------:|:-------------------------:|:-------------------------:
+![](https://github.com/mohammed-shakeer/PropertySearch/blob/main/ReferenceImages/Skeleton-Dark.png)  | 
 ![](https://github.com/mohammed-shakeer/PropertySearch/blob/main/ReferenceImages/List-Dark.png)  |  ![](https://github.com/mohammed-shakeer/PropertySearch/blob/main/ReferenceImages/Sort-Dark.png)
+
+## Architecture
+
+![Architecture Diagram](https://github.com/mohammed-shakeer/PropertySearch/blob/main/ReferenceImages/Architecture.png)
 
 ## License
 
