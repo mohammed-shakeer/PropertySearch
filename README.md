@@ -50,17 +50,21 @@ xcodebuild -project "PropertySearch.xcodeproj" -scheme "PropertySearch" -sdk iph
 
 # User Interface - Light Mode
 
- Loading Screen          | Property Listing Screen             |  Property Sort Screen
-:-------------------------:|:-------------------------:|:-------------------------:
-![](https://github.com/mohammed-shakeer/PropertySearch/blob/main/ReferenceImages/Skeleton.png)  | 
+Property Listing Screen             |  Property Sort Screen
+:-------------------------:|:-------------------------:
 ![](https://github.com/mohammed-shakeer/PropertySearch/blob/main/ReferenceImages/List.png)  |  ![](https://github.com/mohammed-shakeer/PropertySearch/blob/main/ReferenceImages/Sort.png)
 
 # User Interface - Dark Mode
 
-Loading Screen          | Property Listing Screen             |  Property Sort Screen
-:-------------------------:|:-------------------------:|:-------------------------:
-![](https://github.com/mohammed-shakeer/PropertySearch/blob/main/ReferenceImages/Skeleton-Dark.png)  | 
+Property Listing Screen             |  Property Sort Screen
+:-------------------------:|:-------------------------:
 ![](https://github.com/mohammed-shakeer/PropertySearch/blob/main/ReferenceImages/List-Dark.png)  |  ![](https://github.com/mohammed-shakeer/PropertySearch/blob/main/ReferenceImages/Sort-Dark.png)
+
+# User Interface - Loading Screens
+
+Light mode           |  Dark mode
+:-------------------------:|:-------------------------:
+![](https://github.com/mohammed-shakeer/PropertySearch/blob/main/ReferenceImages/Skeleton.png)  |  ![](https://github.com/mohammed-shakeer/PropertySearch/blob/main/ReferenceImages/Skeleton-Dark.png)
 
 ## Architecture
 
